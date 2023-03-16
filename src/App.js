@@ -7,17 +7,11 @@ import Homepage from './Pages/Homepage';
 
 function App() {
 
-  //   const useStyles = makeStyles(() => ({
-  //     App: {
-  //       backgroundColor: 'black',
-  //       color: 'white'
-  //     }
-  //   }));
-
   const useStyles = makeStyles(() => ({
     App: {
-      backgroundColor: "blue",
-      color: "green"
+      backgroundColor: "#14161a",
+      color: "white",
+      minHeight: "100vh"
     }
   }))
 
