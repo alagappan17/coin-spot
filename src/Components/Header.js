@@ -36,7 +36,7 @@ const Header = () => {
             <AppBar color='transparent' position='static'>
                 <Container>
                     <Toolbar>
-                        <Typography onClick={() => history.push("/")} className={classes.title} variant='h6'>Coin Spot</Typography>
+                        <Typography onClick={() => history.push("/")} className={classes.title} variant='h6'>CoinSpot</Typography>
                         <Select variant='outlined' style={{ width: 100, height: 40, marginRight: 15 }} value={currency} onChange={(e) => setCurrency(e.target.value)}>
                             <MenuItem value={'USD'}>USD</MenuItem>
                             <MenuItem value={'INR'}>INR</MenuItem>

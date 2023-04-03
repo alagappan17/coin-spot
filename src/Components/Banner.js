@@ -30,7 +30,7 @@ const Banner = () => {
             <Container className={classes.bannerContent}>
                 <div className={classes.tagline}>
                     <Typography variant="h2" style={{ fontWeight: "bold", marginBotton: 15, fontFamily: "Montserrat" }} >
-                        Coin Spot
+                        CoinSpot
                     </Typography>
                     <Typography variant='subtitle2' style={{ color: 'darkgrey', textTransform: 'capitalize', fontFamily: 'Montserrat' }}>
                         Get all the info regarding your favourite Crypto Coins
